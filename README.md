@@ -12,11 +12,10 @@ The dataset is structured under the `FINANCE.FB` schema and includes the followi
 - `Accounts`
 - `Transactions`
 - `Loans`
-- `Payments`
+- `Loan_Payments`
 - `Investments`
 - `Branches`
-- `Employees`
-- `Credit_cards`
+- `cards`
 
 > **Note:** This dataset simulates a real-world financial database and supports multiple business intelligence scenarios.
 
@@ -24,57 +23,42 @@ The dataset is structured under the `FINANCE.FB` schema and includes the followi
 
 ## 🔍 Business Scenarios Covered
 
-Here’s a summary of the 37 business questions solved using SQL:
+Here’s a summary of the 25 business questions solved using SQL:
 
 ### 🎯 Customer & Account Insights
-1. **Customer Account Balances Overview**
-2. **High-Value Customers Identification**
-3. **Accounts with Low Balances**
-4. **Customers with Multiple Account Types**
-5. **Customers with Multiple Loans**
-6. **Inactive Accounts Between 2019–2023**
-7. **Active Customers in 2020**
+1. **Total Balance per Customer**
+2. **Top 10 Customers by Total Balance**
+3. **Customers with Multiple Accounts**
+4. **Inactive Accounts (No Transactions)**
 
-### 💸 Transactions & Payments
-8. **Transactions in 2022**
-9. **Monthly Deposit Summary**
-10. **Total Amount of Withdrawals in January 2022**
-11. **Average Transaction Amount by Type**
-12. **Account Activity Summary**
-13. **Total Number of Credit Card Transactions in 2022**
+### 💸 Transactions & Activity
+5. **Total Transaction Amount by Type**
+6. **Monthly Transaction Summary**
+7. **Average Transaction Amount**
+8. **Top 10 Highest Transactions**
 
 ### 🏦 Loans & Credit
-14. **Customer Loan Details**
-15. **Average Interest Rate for Loans**
-16. **Total Loan Payments in 2015**
-17. **Outstanding Loan Amount by Customer**
-18. **Loans Approved in 2017**
-19. **Loans Approved by Loan Type**
-20. **Interest Earned on Loans in 2012**
+9. **Total Loan Amount per Customer**
+10. **Average Interest Rate Across Loans**
+11. **Loans Approved by Year**
 
-### 💳 Investments & Credit Cards
-21. **Mutual Fund Investments**
-22. **Stock Investments**
-23. **Bond Investments**
-24. **Total Investment Amount**
-25. **Average Credit Limit**
-26. **Total Credit Cards Issued**
-
-### 🧑‍💼 Employees & Branches
-27. **Branch-Specific Employee List**
-28. **Employees Hired in 2018**
-29. **Employees Working as Loan Officers**
-30. **Employee Count by Branch**
+### 💳 Investments
+12. **Total Investment per Customer**
+13. **Investment Type Distribution**
 
 ### 📈 Advanced Analytics
-31. **High-Value Customers Based on Balances + Investments**
-32. **Customer Segmentation (Low, Medium, High Value)**
-33. **Customer Payments by Bank Transfer**
-34. **Customer Investment Preferences**
-35. **Transaction Count by Account Type**
-36. **Accounts Opened in 2014**
-37. **Comprehensive Account Activity Summary (Total Deposit, Withdrawal, Balance)**
-
+14. **Customer Segmentation Based on Balance**
+15. **Top Customers by Net Worth (Balance + Investments)**
+16. **Account Activity Summary (Deposits vs Withdrawals)**
+17. **Transaction Count by Account Type**
+18. **Average Balance by Account Type**
+19. **Customers with Both Loans and Investments**
+20. **Total Payments per Customer**
+21. **Outstanding Loan Amount per Customer**
+22. **High-Value Customers (Balance > 200k)**
+23. **Average Credit Card Limit**
+24. **Customers with Highest Transaction Count**
+25. **Overall Financial Summary per Customer**
 ---
 
 ## 🛠️ Skills & Tools Demonstrated
@@ -95,32 +79,17 @@ Here’s a summary of the 37 business questions solved using SQL:
 To run this project:
 
 1. Import the dataset and schema into your SQL Server environment.
-2. Execute queries from the provided `.sql` script file.
+2. Check Dataset format for DATE , TIME etc.
+3. Assign Primary Key and Foreign key 
+4. Understand Each Table ( number of unique customers , number of unique cities , Staes , occupation )  
 3. Adapt and extend queries to fit your own banking datasets or BI use cases.
 
 ---
 
 ## 🛠️ Tools Used
 
-- **SQL Server (T-SQL)**
-- **SSMS (SQL Server Management Studio)**
-- Dataset is mock-generated for educational purposes.
+- **Mysql**
+- **Claude**
 
 
----
-
-## 🙋 About Me
-
-I’m **Olayinka Yusuf**, a passionate Data Analyst & Educator with a strong background in SQL, Excel, Power BI, and real-world business problem solving. Let’s connect:
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)](https://www.linkedin.com/in/olayinka-yusuf-884362115/)
-- 🐙 [GitHub](https://github.com/Sahdam)
-- [email](yusufolayinka92@gmail.com)
-- 💼 Open to data roles | 📬 Reach me for collaborations!
-
----
-
-## ⭐️ Support
-
-If you find this project helpful, feel free to ⭐️ star the repo and share with others!
 
