@@ -1,0 +1,26 @@
+branch_id,branch_name,city,state,country,branch_type,open_date,manager_name,contact_number
+1,Mumbai North Branch,Mumbai,Maharashtra,India,Semi-Urban,2016-04-01,Ramesh Shah,+91-7958682846
+2,Delhi West Branch,Delhi,Delhi,India,Digital,2016-07-25,Neha Patel,+91-7373399426
+3,Bengaluru Main Branch,Bengaluru,Karnataka,India,Semi-Urban,2019-09-25,Ramesh Sharma,+91-7999270936
+4,Chennai East Branch,Chennai,Tamil Nadu,India,Semi-Urban,2020-08-31,Deepa Sharma,+91-9791232393
+5,Hyderabad East Branch,Hyderabad,Telangana,India,Rural,2019-09-15,Anjali Verma,+91-7027911967
+6,Pune North Branch,Pune,Maharashtra,India,Rural,2016-10-15,Neha Rao,+91-7667779376
+7,Kolkata Main Branch,Kolkata,West Bengal,India,Urban,2017-05-31,Manoj Joshi,+91-8631775357
+8,Ahmedabad North Branch,Ahmedabad,Gujarat,India,Digital,2016-02-01,Meena Das,+91-8136108454
+9,Jaipur East Branch,Jaipur,Rajasthan,India,Urban,2015-06-27,Neha Verma,+91-8625792787
+10,Lucknow West Branch,Lucknow,Uttar Pradesh,India,Digital,2015-11-19,Arun Gupta,+91-8553210608
+11,Nagpur Main Branch,Nagpur,Maharashtra,India,Semi-Urban,2017-02-26,Neha Patel,+91-8242911821
+12,Chandigarh Main Branch,Chandigarh,Punjab,India,Metro,2015-11-23,Pooja Kumar,+91-8193887545
+13,Bhopal North Branch,Bhopal,Madhya Pradesh,India,Semi-Urban,2020-02-01,Sanjay Das,+91-8589915144
+14,Kochi North Branch,Kochi,Kerala,India,Urban,2018-12-26,Anjali Mehta,+91-9616197747
+15,Surat Central Branch,Surat,Gujarat,India,Semi-Urban,2016-12-01,Arun Shah,+91-8985392498
+16,Indore West Branch,Indore,Madhya Pradesh,India,Digital,2019-04-04,Vijay Pillai,+91-7943239974
+17,Patna Main Branch,Patna,Bihar,India,Semi-Urban,2018-08-21,Pooja Tiwari,+91-7137869475
+18,Vadodara Main Branch,Vadodara,Gujarat,India,Semi-Urban,2018-07-16,Rakesh Gupta,+91-9436019774
+19,Coimbatore South Branch,Coimbatore,Tamil Nadu,India,Metro,2018-07-12,Anjali Mehta,+91-9761027762
+20,Visakhapatnam Central Branch,Visakhapatnam,Andhra Pradesh,India,Semi-Urban,2020-02-23,Priya Gupta,+91-9411057787
+21,Agra South Branch,Agra,Uttar Pradesh,India,Digital,2017-12-12,Neha Nair,+91-8715412119
+22,Mysore East Branch,Mysore,Karnataka,India,Metro,2019-01-22,Anjali Singh,+91-7390452952
+23,Nashik Central Branch,Nashik,Maharashtra,India,Semi-Urban,2015-07-12,Pooja Patel,+91-9922644564
+24,Rajkot South Branch,Rajkot,Gujarat,India,Metro,2019-09-26,Deepa Patel,+91-9559321289
+25,Amritsar East Branch,Amritsar,Punjab,India,Urban,2020-04-01,Arun Gupta,+91-9921794983
